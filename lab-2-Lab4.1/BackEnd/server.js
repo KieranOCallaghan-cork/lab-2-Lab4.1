@@ -38,7 +38,7 @@ app.get('/api/movies', (req, res) => {
 
 
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+    console.log(`Server is running on http://localhost:4000/api/movies${post}`);
 });
 
 const cors = require('cors');
